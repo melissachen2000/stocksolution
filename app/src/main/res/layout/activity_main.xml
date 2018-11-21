@@ -48,38 +48,986 @@
                         android:orientation="horizontal" >
 
                         <TextView
-                            android:id="@+id/ticker1"
+                            android:id="@+id/ticker01"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/stock1_ticker"
+                            android:text="@string/stock01_ticker"
                             android:textSize="30sp"
                             tools:layout_marginLeft="10sp"
                             tools:layout_marginTop="10sp" />
 
                         <TextView
-                            android:id="@+id/price1"
+                            android:id="@+id/price01"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="right"
-                            android:text="@string/stock1_price"
+                            android:text="@string/stock01_price"
                             android:textSize="30sp"
                             tools:layout_marginRight="10sp"
                             tools:layout_marginTop="10sp" />
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/company1"
+                        android:id="@+id/company01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10sp"
-                        android:text="@string/stock1_companyname"
+                        android:text="@string/stock01_companyname"
                         android:textSize="14sp" />
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock02_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock02_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock02_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock03_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock03_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock03_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock04_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock04_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock04_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock05_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price05"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock05_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock05_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock06_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price06"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock06_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock06_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock07_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price07"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock07_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock07_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock08_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price08"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock08_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock08_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock09_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price09"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock09_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock09_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock10_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock10_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock10_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock11_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock11_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock11_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock12_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock12_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock12_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock13_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock13_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock13_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock14_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock14_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock14_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock15_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock15_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock15_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock16_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock16_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock16_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock17_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock17_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock17_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock18_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock18_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock18_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock19_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock19_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock19_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/ticker20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stock20_ticker"
+                            android:textSize="30sp"
+                            tools:layout_marginLeft="10sp"
+                            tools:layout_marginTop="10sp" />
+
+                        <TextView
+                            android:id="@+id/price20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/stock20_price"
+                            android:textSize="30sp"
+                            tools:layout_marginRight="10sp"
+                            tools:layout_marginTop="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/company20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10sp"
+                        android:text="@string/stock20_companyname"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </ScrollView>

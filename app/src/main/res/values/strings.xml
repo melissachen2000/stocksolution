@@ -4,16 +4,89 @@
     <string name="refresh_button">refresh</string>
 
 
-    <string name="stock1_ticker">TICKER 1</string>
-    <string name="stock1_price">PRICE 1</string>
-    <string name="stock1_companyname">COMPANY NAME 1</string>
+    <string name="stock01_ticker">TICKER 1</string>
+    <string name="stock01_price">PRICE 1</string>
+    <string name="stock01_companyname">COMPANY NAME 1</string>
+
+    <string name="stock02_ticker">TICKER 2</string>
+    <string name="stock02_price">PRICE 2</string>
+    <string name="stock02_companyname">COMPANY NAME 2</string>
+
+    <string name="stock03_ticker">TICKER 3</string>
+    <string name="stock03_price">PRICE 3</string>
+    <string name="stock03_companyname">COMPANY NAME 3</string>
+
+    <string name="stock04_ticker">TICKER 4</string>
+    <string name="stock04_price">PRICE 4</string>
+    <string name="stock04_companyname">COMPANY NAME 4</string>
+
+    <string name="stock05_ticker">TICKER 5</string>
+    <string name="stock05_price">PRICE 5</string>
+    <string name="stock05_companyname">COMPANY NAME 5</string>
+
+    <string name="stock06_ticker">TICKER 6</string>
+    <string name="stock06_price">PRICE 6</string>
+    <string name="stock06_companyname">COMPANY NAME 6</string>
+
+    <string name="stock07_ticker">TICKER 7</string>
+    <string name="stock07_price">PRICE 7</string>
+    <string name="stock07_companyname">COMPANY NAME 7</string>
+
+    <string name="stock08_ticker">TICKER 8</string>
+    <string name="stock08_price">PRICE 8</string>
+    <string name="stock08_companyname">COMPANY NAME 8</string>
+
+    <string name="stock09_ticker">TICKER 9</string>
+    <string name="stock09_price">PRICE 9</string>
+    <string name="stock09_companyname">COMPANY NAME 9</string>
+
+    <string name="stock10_ticker">TICKER 10</string>
+    <string name="stock10_price">PRICE 10</string>
+    <string name="stock10_companyname">COMPANY NAME 10</string>
+
+    <string name="stock11_ticker">TICKER 11</string>
+    <string name="stock11_price">PRICE 11</string>
+    <string name="stock11_companyname">COMPANY NAME 11</string>
+
+    <string name="stock12_ticker">TICKER 12</string>
+    <string name="stock12_price">PRICE 12</string>
+    <string name="stock12_companyname">COMPANY NAME 12</string>
+
+    <string name="stock13_ticker">TICKER 13</string>
+    <string name="stock13_price">PRICE 13</string>
+    <string name="stock13_companyname">COMPANY NAME 13</string>
+
+    <string name="stock14_ticker">TICKER 14</string>
+    <string name="stock14_price">PRICE 14</string>
+    <string name="stock14_companyname">COMPANY NAME 14</string>
+
+    <string name="stock15_ticker">TICKER 15</string>
+    <string name="stock15_price">PRICE 15</string>
+    <string name="stock15_companyname">COMPANY NAME 15</string>
+
+    <string name="stock16_ticker">TICKER 16</string>
+    <string name="stock16_price">PRICE 16</string>
+    <string name="stock16_companyname">COMPANY NAME 16</string>
+
+    <string name="stock17_ticker">TICKER 17</string>
+    <string name="stock17_price">PRICE 17</string>
+    <string name="stock17_companyname">COMPANY NAME 17</string>
+
+    <string name="stock18_ticker">TICKER 18</string>
+    <string name="stock18_price">PRICE 18</string>
+    <string name="stock18_companyname">COMPANY NAME 18</string>
+
+    <string name="stock19_ticker">TICKER 19</string>
+    <string name="stock19_price">PRICE 19</string>
+    <string name="stock19_companyname">COMPANY NAME 19</string>
+
+    <string name="stock20_ticker">TICKER 20</string>
+    <string name="stock20_price">PRICE 20</string>
+    <string name="stock20_companyname">COMPANY NAME 20</string>
 
 
-
-
-
-    <string name="headline1">HEADLINE 1</string>
-    <string name="source1">SOURCE 1</string>
-    <string name="date1">DATE 1</string>
+    <string name="headline01">HEADLINE 1</string>
+    <string name="source01">SOURCE 1</string>
+    <string name="date01">DATE 1</string>
 
 </resources>
