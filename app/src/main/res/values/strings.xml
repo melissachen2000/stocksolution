@@ -8,4 +8,12 @@
     <string name="stock1_price">PRICE 1</string>
     <string name="stock1_companyname">COMPANY NAME 1</string>
 
+
+
+
+
+    <string name="headline1">HEADLINE 1</string>
+    <string name="source1">SOURCE 1</string>
+    <string name="date1">DATE 1</string>
+
 </resources>
