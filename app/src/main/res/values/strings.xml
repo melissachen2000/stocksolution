@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">stocksolution</string>
+    <string name="user_input">Enter Maximum Price per Stock</string>
+    <string name="refresh_button">refresh</string>
+
+
+    <string name="stock1_ticker">TICKER 1</string>
+    <string name="stock1_price">PRICE 1</string>
+    <string name="stock1_companyname">COMPANY NAME 1</string>
+
 </resources>
