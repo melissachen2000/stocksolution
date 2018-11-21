@@ -3,7 +3,6 @@
     <string name="user_input">Enter Maximum Price per Stock</string>
     <string name="refresh_button">refresh</string>
 
-
     <string name="stock01_ticker">TICKER 1</string>
     <string name="stock01_price">PRICE 1</string>
     <string name="stock01_companyname">COMPANY NAME 1</string>
@@ -84,9 +83,24 @@
     <string name="stock20_price">PRICE 20</string>
     <string name="stock20_companyname">COMPANY NAME 20</string>
 
-
     <string name="headline01">HEADLINE 1</string>
     <string name="source01">SOURCE 1</string>
     <string name="date01">DATE 1</string>
+
+    <string name="headline02">HEADLINE 2</string>
+    <string name="source02">SOURCE 2</string>
+    <string name="date02">DATE 2</string>
+
+    <string name="headline03">HEADLINE 3</string>
+    <string name="source03">SOURCE 3</string>
+    <string name="date03">DATE 3</string>
+
+    <string name="headline04">HEADLINE 4</string>
+    <string name="source04">SOURCE 4</string>
+    <string name="date04">DATE 4</string>
+
+    <string name="headline05">HEADLINE 5</string>
+    <string name="source05">SOURCE 5</string>
+    <string name="date05">DATE 5</string>
 
 </resources>

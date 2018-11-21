@@ -14,7 +14,7 @@
     </LinearLayout>
 
     <ScrollView
-        android:id="@+id/scrollablContent"
+        android:id="@+id/scrollableContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/footerView"
