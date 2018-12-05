@@ -1,7 +1,11 @@
 package com.example.myche.stocksolution;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -50,6 +54,27 @@ public class NewsActivity extends AppCompatActivity {
         for (TextView date:dates) {
             date.setText("2018/12/" + count);
             count++;
+        }
+
+        final Button[] viewArticle = new Button[5];
+        viewArticle[0] = (Button) findViewById(R.id.article01);
+        viewArticle[1] = (Button) findViewById(R.id.article02);
+        viewArticle[2] = (Button) findViewById(R.id.article03);
+        viewArticle[3] = (Button) findViewById(R.id.article04);
+        viewArticle[4] = (Button) findViewById(R.id.article05);
+
+        for (int i = 0; i < viewArticle.length; i++) {
+            viewArticle[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String url = "http://reddit.com/r/UIUC";
+
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+                }
+            });
+
         }
     }
 }
