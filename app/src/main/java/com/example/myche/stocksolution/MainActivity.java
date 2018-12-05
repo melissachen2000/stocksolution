@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                     String maximumStockPrice = maxGetter.getText().toString().trim();
                     maxPrice = Integer.parseInt(maximumStockPrice);
                 } catch (Exception e) {
-                    maxPrice = 100;
+                    maxPrice = 150;
                     maxGetter.setText(Integer.toString(maxPrice));
                 }
 
