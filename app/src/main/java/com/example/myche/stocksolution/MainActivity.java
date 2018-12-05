@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Button newsButton = (Button) findViewById(R.id.button);
-        final EditText userInput = (EditText) findViewById(R.id.editText);
+        final EditText maxGetter = (EditText) findViewById(R.id.editText);
 
         newsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String maximumStockPrice = userInput.getText().toString().trim();
+                String maximumStockPrice = maxGetter.getText().toString().trim();
                 int maxPrice = Integer.parseInt(maximumStockPrice);
             }
         });
