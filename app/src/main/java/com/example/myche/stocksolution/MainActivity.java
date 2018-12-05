@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+        Button newsButton = (Button) findViewById(R.id.button);
+        final EditText userInput = (EditText) findViewById(R.id.editText);
+
+        newsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String maximumStockPrice = userInput.getText().toString().trim();
+                int maxPrice = Integer.parseInt(maximumStockPrice);
+            }
+        });
     }
 
 }
