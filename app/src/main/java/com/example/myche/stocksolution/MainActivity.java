@@ -10,10 +10,34 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String[] stockTickers;
+    private String[] companies;
+    private String[] stockPrices;
+
+    private void getStocks() {
+        String[] t = {"GE", "BAC", "F", "T", "CHK",
+                        "WFC", "KGC", "PFE", "C", "WFT",
+                        "VALE", "SWN", "JPM", "ECA", "PBR",
+                        "FCX", "VZ", "NOK", "CTL", "KO"};
+        String[] c = {"General Electric", "Bank of America", "Ford Motor", "AT&T", "Chesapeake",
+                        "Wells Fargo", "Kinross Gold", "Pfizer", "Citigroup", "Weatherford",
+                        "Companhia Vale Do Rio Doce", "Southwestern Energy", "JP Morgan Chase", "Encana", "Petroleo Brasileiro",
+                        "Freeport McMoran", "Verizon", "Nokia", "Centurytel", "Coca Cola"};
+        String[] p = {"7.29", "27.00", "9.19", "30.73", "2.89", "51.79", "2.80", "45.17",
+                        "62.27", "0.55", "13.60", "4.52", "107.33", "6.74", "14.67", "11.50",
+                        "58.14", "5.40", "17.84", "49.59"};
+
+        stockTickers = t;
+        companies = c;
+        stockPrices = p;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getStocks();
 
         final Button[] newsbuttons = new Button[20];
         newsbuttons[0] = (Button) findViewById(R.id.getnews01);
@@ -139,22 +163,16 @@ public class MainActivity extends AppCompatActivity {
                     maxGetter.setText(Integer.toString(maxPrice));
                 }
 
-                int count = 1;
-                for (TextView ticker:tickers) {
-                    ticker.setText("TICKER" + count);
-                    count++;
+                for (int i = 0; i < tickers.length; i++) {
+                    tickers[i].setText(stockTickers[i]);
                 }
 
-                count = 1;
-                for (TextView price:prices) {
-                    price.setText("$" + count + ".00");
-                    count++;
+                for (int i = 0; i < prices.length; i++) {
+                    prices[i].setText(stockPrices[i]);
                 }
 
-                count = 1;
-                for (TextView name:names) {
-                    name.setText("Company " + count);
-                    count++;
+                for (int i = 0; i < names.length; i++) {
+                    names[i].setText(companies[i]);
                 }
             }
         });
