@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class NewsActivity extends AppCompatActivity {
 
     @Override
@@ -67,7 +65,7 @@ public class NewsActivity extends AppCompatActivity {
             viewArticle[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String url = "http://reddit.com/r/UIUC";
+                    String url = "http://www.wsj.com/articles/stocks-drop-across-asia-after-u-s-swoon-1543981334";
 
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse(url));
