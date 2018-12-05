@@ -78,6 +78,12 @@
                             tools:layout_marginBottom="10sp" />
                     </LinearLayout>
 
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_news"
+                        android:id="@+id/article01"/>
+
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -129,6 +135,12 @@
                             tools:layout_marginRight="10sp"
                             tools:layout_marginBottom="10sp" />
                     </LinearLayout>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_news"
+                        android:id="@+id/article02"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -182,6 +194,12 @@
                             tools:layout_marginBottom="10sp" />
                     </LinearLayout>
 
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_news"
+                        android:id="@+id/article03"/>
+
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -234,6 +252,12 @@
                             tools:layout_marginBottom="10sp" />
                     </LinearLayout>
 
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_news"
+                        android:id="@+id/article04"/>
+
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -285,6 +309,12 @@
                             tools:layout_marginRight="10sp"
                             tools:layout_marginBottom="10sp" />
                     </LinearLayout>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_news"
+                        android:id="@+id/article05"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
