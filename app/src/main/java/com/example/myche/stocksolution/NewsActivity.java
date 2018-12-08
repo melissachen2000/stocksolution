@@ -42,6 +42,11 @@ public class NewsActivity extends AppCompatActivity {
         viewArticle[1] = (Button) findViewById(R.id.article02);
         viewArticle[2] = (Button) findViewById(R.id.article03);
 
+        final TextView[] links = new TextView[3];
+        links[0] = (TextView) findViewById(R.id.link1);
+        links[1] = (TextView) findViewById(R.id.link2);
+        links[2] = (TextView) findViewById(R.id.link3);
+
         for (int i = 0; i < headlines.length; i++) {
             DataRequest headline = new DataRequest(NewsActivity.this, headlines[i]);
             try {
@@ -70,19 +75,27 @@ public class NewsActivity extends AppCompatActivity {
             }
         }
 
+        final String[] urls = new String[3];
+
+        for (int i = 0; i < links.length; i++) {
+            DataRequest link = new DataRequest(NewsActivity.this, links[i]);
+            try {
+                link.execute("url", Integer.toString(i), ticker);
+            } catch (Exception e) {
+                links[i].setText("");
+            }
+            urls[i] = links[i].getText().toString();
+            links[i].setText("");
+        }
+
         for (int i = 0; i < viewArticle.length; i++) {
             final int copyi = i;
             viewArticle[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String link = "";
-
-                    if (!link.equals("ERROR")) {
-                        viewArticle[copyi].setText(link);
-                        Intent it = new Intent(Intent.ACTION_VIEW);
-                        it.setData(Uri.parse(link));
-                        startActivity(it);
-                    }
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse(urls[copyi]));
+                    startActivity(intent);
                 }
             });
 

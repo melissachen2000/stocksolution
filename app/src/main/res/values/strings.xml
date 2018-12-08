@@ -3,7 +3,7 @@
     <string name="user_input">Enter Maximum Price per Stock</string>
     <string name="refresh_button">refresh</string>
     <string name="get_news">get news</string>
-    <string name="go_to_news"></string>
+    <string name="go_to_news">click twice to view news article</string>
 
     <string name="stock01_ticker">TICKER 1</string>
     <string name="stock01_price">PRICE 1</string>
