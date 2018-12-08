@@ -40,15 +40,6 @@ public class MainActivity extends AppCompatActivity {
         newsbuttons[18] = (Button) findViewById(R.id.getnews19);
         newsbuttons[19] = (Button) findViewById(R.id.getnews20);
 
-        for (int i = 0; i < newsbuttons.length; i++) {
-            newsbuttons[i].setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(MainActivity.this, NewsActivity.class));
-                }
-            });
-        }
-
         final TextView[] tickers = new TextView[20];
         tickers[0] = (TextView) findViewById(R.id.ticker01);
         tickers[1] = (TextView) findViewById(R.id.ticker02);
@@ -70,10 +61,6 @@ public class MainActivity extends AppCompatActivity {
         tickers[17] = (TextView) findViewById(R.id.ticker18);
         tickers[18] = (TextView) findViewById(R.id.ticker19);
         tickers[19] = (TextView) findViewById(R.id.ticker20);
-
-        for (TextView ticker:tickers) {
-            ticker.setText("NULL");
-        }
 
         final TextView[] prices = new TextView[20];
         prices[0] = (TextView) findViewById(R.id.price01);
@@ -97,10 +84,6 @@ public class MainActivity extends AppCompatActivity {
         prices[18] = (TextView) findViewById(R.id.price19);
         prices[19] = (TextView) findViewById(R.id.price20);
 
-        for (TextView price:prices) {
-            price.setText("$0.00");
-        }
-
         final TextView[] names = new TextView[20];
         names[0] = (TextView) findViewById(R.id.company01);
         names[1] = (TextView) findViewById(R.id.company02);
@@ -122,6 +105,25 @@ public class MainActivity extends AppCompatActivity {
         names[17] = (TextView) findViewById(R.id.company18);
         names[18] = (TextView) findViewById(R.id.company19);
         names[19] = (TextView) findViewById(R.id.company20);
+
+        for (int i = 0; i < newsbuttons.length; i++) {
+            final int copyi = i;
+            newsbuttons[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(MainActivity.this, NewsActivity.class));
+                    NewsActivity.setButton(tickers[copyi].getText().toString());
+                }
+            });
+        }
+
+        for (TextView ticker:tickers) {
+            ticker.setText("NULL");
+        }
+
+        for (TextView price:prices) {
+            price.setText("$0.00");
+        }
 
         for (TextView name:names) {
             name.setText("No company name");
