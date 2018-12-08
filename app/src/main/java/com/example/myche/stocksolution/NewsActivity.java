@@ -84,7 +84,6 @@ public class NewsActivity extends AppCompatActivity {
             } catch (Exception e) {
                 links[i].setText("");
             }
-            urls[i] = links[i].getText().toString();
         }
 
         for (int i = 0; i < viewArticle.length; i++) {
@@ -93,7 +92,7 @@ public class NewsActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse(urls[copyi]));
+                    intent.setData(Uri.parse(links[copyi].getText().toString()));
                     startActivity(intent);
                 }
             });
