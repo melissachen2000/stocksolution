@@ -150,7 +150,7 @@ public class DataRequest extends AsyncTask<String, String, String> {
 
             return outPut;
         } catch (Exception e) {
-            return e.toString();
+            return "NONE";
         }
     }
 
