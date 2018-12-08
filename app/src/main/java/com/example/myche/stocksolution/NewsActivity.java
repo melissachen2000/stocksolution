@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 
 public class NewsActivity extends AppCompatActivity {
     static String ticker;
@@ -24,11 +26,6 @@ public class NewsActivity extends AppCompatActivity {
         headlines[0] = (TextView) findViewById(R.id.headline01);
         headlines[1] = (TextView) findViewById(R.id.headline02);
         headlines[2] = (TextView) findViewById(R.id.headline03);
-
-        final TextView[] sources = new TextView[3];
-        sources[0] = (TextView) findViewById(R.id.source01);
-        sources[1] = (TextView) findViewById(R.id.source02);
-        sources[2] = (TextView) findViewById(R.id.source03);
 
         final TextView[] dates = new TextView[3];
         dates[0] = (TextView) findViewById(R.id.datetime01);
@@ -64,14 +61,10 @@ public class NewsActivity extends AppCompatActivity {
             viewArticle[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    DataRequest url = new DataRequest(NewsActivity.this, sources[copyi]);
-                    try {
-                        url.execute("url", Integer.toString(copyi), ticker);
-                    } catch (Exception e) { }
-
-                    String link = sources[copyi].getText().toString();
+                    String link = "";
 
                     if (!link.equals("ERROR")) {
+                        viewArticle[copyi].setText(link);
                         Intent it = new Intent(Intent.ACTION_VIEW);
                         it.setData(Uri.parse(link));
                         startActivity(it);
