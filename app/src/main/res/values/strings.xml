@@ -85,24 +85,24 @@
     <string name="stock20_price">PRICE 20</string>
     <string name="stock20_companyname">COMPANY NAME 20</string>
 
-    <string name="headline01">HEADLINE 1</string>
-    <string name="source01">SOURCE 1</string>
-    <string name="date01">DATE 1</string>
+    <string name="headline01"></string>
+    <string name="source01">S</string>
+    <string name="date01"></string>
 
-    <string name="headline02">HEADLINE 2</string>
-    <string name="source02">SOURCE 2</string>
-    <string name="date02">DATE 2</string>
+    <string name="headline02"></string>
+    <string name="source02">S</string>
+    <string name="date02"></string>
 
-    <string name="headline03">HEADLINE 3</string>
-    <string name="source03">SOURCE 3</string>
-    <string name="date03">DATE 3</string>
+    <string name="headline03"></string>
+    <string name="source03">S</string>
+    <string name="date03"></string>
 
-    <string name="headline04">HEADLINE 4</string>
-    <string name="source04">SOURCE 4</string>
-    <string name="date04">DATE 4</string>
+    <string name="headline04"></string>
+    <string name="source04">S</string>
+    <string name="date04"></string>
 
-    <string name="headline05">HEADLINE 5</string>
-    <string name="source05">SOURCE 5</string>
-    <string name="date05">DATE 5</string>
+    <string name="headline05"></string>
+    <string name="source05">S</string>
+    <string name="date05"></string>
 
 </resources>
