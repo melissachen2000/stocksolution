@@ -117,21 +117,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         final Button refresh = (Button) findViewById(R.id.button);
-        final EditText maxGetter = (EditText) findViewById(R.id.editText);
 
         refresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int maxPrice;
-                try {
-                    String maximumStockPrice = maxGetter.getText().toString().trim();
-                    maxPrice = Integer.parseInt(maximumStockPrice);
-                } catch (Exception e) {
-                    maxPrice = 150;
-                    maxGetter.setText(Integer.toString(maxPrice));
-                }
-
-
                 String[] stockTickers = new String[20];
                 int index = 0;
                 for (int i = 0; i < 20; i++) {

@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">stocksolution</string>
-    <string name="user_input">Enter Maximum Price per Stock</string>
     <string name="refresh_button">refresh</string>
     <string name="get_news">get news</string>
     <string name="go_to_news">click to view article</string>
