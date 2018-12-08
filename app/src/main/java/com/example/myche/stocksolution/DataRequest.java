@@ -91,12 +91,10 @@ public class DataRequest extends AsyncTask<String, String, String> {
     /**
      * @param context your context that preform such DataRequest, eg, MainActivity.
      * @param textView the textView you wish to change, must be initialized.
-     * @param button the button that linked with this Onclick event.
      */
-    DataRequest(Context context, TextView textView, Button button) {
+    DataRequest(Context context, TextView textView) {
         this.context = context;
         this.textView = textView;
-        this.button = button;
     }
 
     @Override

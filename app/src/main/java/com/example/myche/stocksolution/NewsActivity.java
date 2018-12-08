@@ -27,10 +27,6 @@ public class NewsActivity extends AppCompatActivity {
         headlines[3] = (TextView) findViewById(R.id.headline04);
         headlines[4] = (TextView) findViewById(R.id.headline05);
 
-        for (int i = 0; i < headlines.length; i++) {
-            headlines[i].setText(news[i]);
-        }
-
         final TextView[] sources = new TextView[5];
         sources[0] = (TextView) findViewById(R.id.source01);
         sources[1] = (TextView) findViewById(R.id.source02);
@@ -38,20 +34,12 @@ public class NewsActivity extends AppCompatActivity {
         sources[3] = (TextView) findViewById(R.id.source04);
         sources[4] = (TextView) findViewById(R.id.source05);
 
-        for (int i = 0; i < sources.length; i++) {
-            sources[i].setText(author[i]);
-        }
-
         final TextView[] dates = new TextView[5];
         dates[0] = (TextView) findViewById(R.id.datetime01);
         dates[1] = (TextView) findViewById(R.id.datetime02);
         dates[2] = (TextView) findViewById(R.id.datetime03);
         dates[3] = (TextView) findViewById(R.id.datetime04);
         dates[4] = (TextView) findViewById(R.id.datetime05);
-
-        for (int i = 0; i < dates.length; i++) {
-            dates[i].setText(datetime[i]);
-        }
 
         final Button[] viewArticle = new Button[5];
         viewArticle[0] = (Button) findViewById(R.id.article01);
