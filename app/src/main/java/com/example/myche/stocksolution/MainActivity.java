@@ -106,8 +106,14 @@ public class MainActivity extends AppCompatActivity {
         names[18] = (TextView) findViewById(R.id.company19);
         names[19] = (TextView) findViewById(R.id.company20);
 
-        for (TextView name:names) {
-            name.setText("No company name");
+        for (int i = 0; i < newsbuttons.length; i++) {
+            final int copyi = i;
+            newsbuttons[i].setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    NewsActivity.setButton(tickers[copyi].getText().toString());
+                    startActivity(new Intent(MainActivity.this, NewsActivity.class));
+                }
+            });
         }
 
         final Button refresh = (Button) findViewById(R.id.button);
@@ -134,10 +140,10 @@ public class MainActivity extends AppCompatActivity {
                     tickers[i].setText(stockTickers[i]);
 
 
-                    DataRequest price = new DataRequest(MainActivity.this, prices[i], refresh);
+                    DataRequest price = new DataRequest(MainActivity.this, prices[i]);
                     price.execute("Stock", "0", stockTickers[i], "latestPrice");
 
-                    DataRequest name = new DataRequest(MainActivity.this, names[i], refresh);
+                    DataRequest name = new DataRequest(MainActivity.this, names[i]);
                     name.execute("Stock", "0", stockTickers[i], "companyName");
 
                     if (prices[i].getText().toString().equals("NONE") || names[i].getText().toString().equals("NONE")) {

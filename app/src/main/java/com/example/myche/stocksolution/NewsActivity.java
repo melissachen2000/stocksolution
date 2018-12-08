@@ -48,19 +48,53 @@ public class NewsActivity extends AppCompatActivity {
         viewArticle[3] = (Button) findViewById(R.id.article04);
         viewArticle[4] = (Button) findViewById(R.id.article05);
 
+        for (int i = 0; i < headlines.length; i++) {
+            DataRequest headline = new DataRequest(NewsActivity.this, headlines[i]);
+            try {
+                headline.execute("headline", Integer.toString(i), ticker);
+            } catch (Exception e) {
+                headlines[i].setText("");
+                viewArticle[i].setText("");
+            }
+        }
+
+        for (int i = 0; i < sources.length; i++) {
+            DataRequest source = new DataRequest(NewsActivity.this, sources[i]);
+            try {
+                source.execute("source", Integer.toString(i), ticker);
+            } catch (Exception e) {
+                sources[i].setText("");
+            }
+        }
+
+        for (int i = 0; i < dates.length; i++) {
+            DataRequest date = new DataRequest(NewsActivity.this, sources[i]);
+            try {
+                date.execute("datetime", Integer.toString(i), ticker);
+            } catch (Exception e) {
+                dates[i].setText("");
+            }
+        }
+
         for (int i = 0; i < viewArticle.length; i++) {
             final int copyi = i;
             viewArticle[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String url = links[copyi];
+                    DataRequest url = new DataRequest(NewsActivity.this, viewArticle[copyi]);
+                    try {
+                        url.execute("url", Integer.toString(copyi), ticker);
+                    } catch (Exception e) { }
+
+                    String link = viewArticle[copyi].getText().toString();
 
                     Intent it = new Intent(Intent.ACTION_VIEW);
-                    it.setData(Uri.parse(url));
+                    it.setData(Uri.parse(link));
                     startActivity(it);
                 }
             });
 
         }
+
     }
 }
