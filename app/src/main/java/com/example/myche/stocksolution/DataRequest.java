@@ -1,4 +1,4 @@
-package com.example.tom.finalproject0;
+package com.example.myche.stocksolution;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
