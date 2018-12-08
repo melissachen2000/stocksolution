@@ -85,7 +85,6 @@ public class NewsActivity extends AppCompatActivity {
                 links[i].setText("");
             }
             urls[i] = links[i].getText().toString();
-            links[i].setText("");
         }
 
         for (int i = 0; i < viewArticle.length; i++) {
