@@ -27,6 +27,11 @@ public class NewsActivity extends AppCompatActivity {
         headlines[1] = (TextView) findViewById(R.id.headline02);
         headlines[2] = (TextView) findViewById(R.id.headline03);
 
+        final TextView[] sources = new TextView[3];
+        sources[0] = (TextView) findViewById(R.id.source01);
+        sources[1] = (TextView) findViewById(R.id.source02);
+        sources[2] = (TextView) findViewById(R.id.source03);
+
         final TextView[] dates = new TextView[3];
         dates[0] = (TextView) findViewById(R.id.datetime01);
         dates[1] = (TextView) findViewById(R.id.datetime02);
@@ -48,11 +53,20 @@ public class NewsActivity extends AppCompatActivity {
         }
 
         for (int i = 0; i < dates.length; i++) {
-            DataRequest date = new DataRequest(NewsActivity.this, sources[i]);
+            DataRequest date = new DataRequest(NewsActivity.this, dates[i]);
             try {
                 date.execute("datetime", Integer.toString(i), ticker);
             } catch (Exception e) {
                 dates[i].setText("");
+            }
+        }
+
+        for (int i = 0; i < sources.length; i++) {
+            DataRequest source = new DataRequest(NewsActivity.this, sources[i]);
+            try {
+                source.execute("source", Integer.toString(i), ticker);
+            } catch (Exception e) {
+                sources[i].setText("");
             }
         }
 
